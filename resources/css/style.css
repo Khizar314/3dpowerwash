@@ -97,11 +97,11 @@ header {
 }
 
 .btn {
-  position: absolute;
+  position: relative;;
   width: 300px;
   text-align: center;
   left: 50%;
-  top: 70%;
+  top: 28em;
   transform: translate(-50%, -50%);
 }
 
@@ -514,7 +514,7 @@ nav .close {
 .appointment-overlay {
   /*border: solid red 2px;*/
   position: absolute;
-  top: 50%;
+  top: 69%;
   left: 50%;
   display: none;
   background-color: #3E97FF;
