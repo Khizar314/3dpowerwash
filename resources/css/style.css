@@ -504,7 +504,7 @@ nav .close {
   font-weight: 400;
   letter-spacing: 1px;
   color: white;
-  margin-top: 5%;
+  margin-top: 67%;
 }
 
 /*border: solid red 1px;*/
@@ -552,6 +552,7 @@ nav .close {
   height: 44px;
   display: block;
   border: none;
+  background: #fff;
 }
 
 .appointment-form input[type="submit"] {
