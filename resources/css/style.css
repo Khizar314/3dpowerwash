@@ -776,3 +776,18 @@ footer h4 {
 .social-icons li img {
   width: 100%;
 }
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .appointment-overlay {
+      top: 50%;
+      height: 100%;
+    }
+    .title {
+      margin-top: 5%;
+    }
+}
