@@ -36,7 +36,7 @@ html {
 .section-title {
   text-align: center;
   font-size: 2em;
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat";
   font-weight: 400;
   letter-spacing: 6px;
   margin-top: 80px;
@@ -504,7 +504,7 @@ nav .close {
   font-weight: 400;
   letter-spacing: 1px;
   color: white;
-  margin-top: 67%;
+  margin-top: 5%;
 }
 
 /*border: solid red 1px;*/
@@ -514,12 +514,12 @@ nav .close {
 .appointment-overlay {
   /*border: solid red 2px;*/
   position: absolute;
-  top: 69%;
+  top: 50%;
   left: 50%;
   display: none;
   background-color: #3E97FF;
   width: 100%;
-  height: auto;
+  height: 100%;
   transform: translate(-50%, -50%);
   z-index: 10000;
 }
@@ -777,17 +777,7 @@ footer h4 {
   width: 100%;
 }
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
 
-    .appointment-overlay {
-      top: 50%;
-      height: 100%;
-    }
-    .title {
-      margin-top: 5%;
-    }
+@-ms-viewport{
+  width: device-width;
 }
