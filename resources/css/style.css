@@ -97,7 +97,7 @@ header {
 }
 
 .btn {
-  position: relative;;
+  position: absolute;
   width: 300px;
   text-align: center;
   left: 50%;
@@ -550,7 +550,7 @@ nav .close {
  .appointment-form input, select {
   width: 300px;
   height: 44px;
-  /*display: block;*/
+  display: block;
   border: none;
 }
 
